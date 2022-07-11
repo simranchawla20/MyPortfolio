@@ -3,7 +3,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 10%;
+    height: 100%;
     min-height: fit-content;
 }
 .profile-parent{
@@ -24,12 +24,13 @@
     font-size: 40px;
     font-family: cursive;
 }
+.orange-text{
+    color:(--dark-orange);
+}
 .primary-text{
     color:(--white);
 }
-.highlighted-text{
-    color:(--dark-orange);
-}
+
 .profile-role-tagline{
     font-size: 19px;
     margin: 5px 0 0 0;
@@ -51,7 +52,7 @@
     border-radius: 50%;
     height: 380px;
     width: 380px;
-    margin: 0 0 0 100px;
+    margin: 40px 0 0 100px;
 }
 .profile-picture-background{
     height: 92%;

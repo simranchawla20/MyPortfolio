@@ -1,29 +1,32 @@
 /* 363859 */
-.navbar{
-    background-color: #363859;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.7rem 2rem;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  top: 0;
-  margin:0;
-  border-bottom: solid 1px var(--dark-orange);
-  opacity: 0.9;
-  margin-right: 0.6rem;
-}
-.navbar ul {
-    display: flex;
-}
 
-.navbar a {
+nav {
+    background-color: #363859;
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+	position: -webkit-sticky;
+	position: sticky;
+	top: -5px;
+	z-index: 2;
+	height: 70px;
+	min-height: 70px;
+	width:100%;
+	padding: 0 2rem;
+	box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+nav li{
     color: #fff;
     padding: 0.45rem;
-    margin: 0 0.25rem;
+    margin: 0 1rem;
     font-family: "Poppins Bold";
 }
-.navbar a:hover{
+nav li:hover{
     color: var(--dark-orange);
-}
+    cursor: pointer;
+} 
