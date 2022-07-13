@@ -19,7 +19,51 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
-        <div className='about-card'></div>
+        <div className='about-card'>
+          <div className='about-profile'></div>
+          <div className='about-details'>
+            <span class="about-me-description">Full stack web developer with 
+            background knowledge of MERN stack, along with a knack of 
+            building User Interace with Flutter .Have an Experience of building Rest API's using SpringBoot technology
+             with utmost efficiency. Strong SQL knowledge with database handling.
+            Willing to be an asset for an organization.</span>
+            <div class="about-me-highlights">
+              <div class="highlight-heading">
+                <span>Here are a Few Highlights:</span>
+              </div>
+              <div class="highlight">
+                <div class="highlight-blob"></div>
+                <span>Full Stack web development</span>
+              </div>
+              <div class="highlight">
+                <div class="highlight-blob"></div>
+                <span>Interactive Front End as per the design</span>
+              </div>
+              <div class="highlight">
+                <div class="highlight-blob"></div>
+                <span>React</span>
+              </div>
+              <div class="highlight">
+                <div class="highlight-blob"></div>
+                <span>Flutter</span>
+              </div>
+              <div class="highlight">
+                <div class="highlight-blob"></div>
+                <span>Building REST API</span>
+              </div>
+              <div class="highlight">
+                <div class="highlight-blob"></div>
+                <span>Managing database</span>
+              </div>
+            </div>
+            <div class="about-me-options">
+              <button class="btn primary-btn"> Hire Me </button>
+              <a href="Simran_Resume.pdf" download="Ehiedu Ehizcv.pdf">
+                <button class="btn highlighted-btn">Get Resume</button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

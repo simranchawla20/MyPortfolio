@@ -6,7 +6,8 @@
     margin: 50px 0 0;
 }
 .about-parent{
-    width: 88%;
+    width: 75%;
+    margin-bottom: 15px;
 }
 .heading-container{
     display: flex;
@@ -54,4 +55,51 @@
     width: 35px;
     border-radius: 10px;
     background-color: var(--dark-orange);
+}
+.about-profile{
+    width: 50%;
+    background-image: url(../../assets/Home/mePic8.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.about-details{
+    width: 48%;
+    text-align: justify;
+    padding: 30px;
+}
+.about-me-description{
+    font-size: 12px;
+}
+.about-me-highlights{
+    margin: 70px 0;
+}
+.highlight-heading{
+
+}
+.highlight{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 12px;
+}
+.highlight-blob{
+    height: 12px;
+    width: 12px;
+    margin: 0 10px 0 0;
+    background-color: #ff5823;
+    border-radius: 50%;
+}
+.about-me-options{
+
+}
+.btn .primary-btn{
+
+}
+.btn .highlighted-btn{
+
+}
+
+.about-me-options .highlighted-btn{
+    margin: 0 0 0 30px;
 }
