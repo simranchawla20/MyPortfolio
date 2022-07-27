@@ -1,6 +1,6 @@
 /* 363859 */
 
-nav {
+.top-nav {
     background-color: #363859;
 	display: flex;
 	align-items: center;
@@ -15,18 +15,18 @@ nav {
 	padding: 0 2rem;
 	box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
-nav ul {
+.top-nav ul {
     display: flex;
     list-style: none;
     margin-top: 20px;
 }
-nav li{
+.top-nav li{
     color: #fff;
     padding: 0.45rem;
     margin: 0 1rem;
     font-family: "Poppins Bold";
 }
-nav li:hover{
+.top-nav li:hover{
     color: var(--dark-orange);
     cursor: pointer;
 } 

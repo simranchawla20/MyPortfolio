@@ -4,8 +4,8 @@ import './Navbar.css'
 
 export default function Navbar() {
   return (
-    <nav>
-      <nav>
+    <div>
+      <nav className="top-nav">
         <ul>
           <li>
             <Link activeClass="active" smooth spy to="home">
@@ -34,6 +34,6 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-    </nav>
+    </div>
   );
 }
