@@ -16,37 +16,47 @@ export default function ResumeNav() {
         <ul>
           <div className='li-div1'>
           <li>
-            <Link activeClass="active" smooth spy to="home">
+            <div className="side-link-div">
+              <Link activeClass="active" smooth={true} spy={true} to="">
               EDUCATION
             </Link>
+            </div>
           </li>
           </div>
           <div className='li-div2'>
           <li>
-            <Link activeClass="active" smooth spy to="about">
+          <div className="side-link-div">
+            <Link activeClass="active" smooth={true} spy={true} to="">
               WORK HISTORY
             </Link>
+            </div>
           </li>
           </div>
           <div className='li-div3'>
           <li>
-            <Link activeClass="active" smooth spy to="resume">
+          <div className="side-link-div">
+            <Link activeClass="active" smooth={true} spy={true} to="">
               SKILLS
             </Link>
+            </div>
           </li>
           </div>
           <div className='li-div4'>
           <li>
-            <Link activeClass="active" smooth spy to="testimonial">
+          <div className="side-link-div">
+            <Link activeClass="active" smooth={true} spy={true} to="testimonial">
               PROJECTS
             </Link>
+            </div>
           </li>
           </div>
           <div className='li-div5'>
           <li>
-            <Link activeClass="active" smooth spy to="contact">
+          <div className="side-link-div">
+            <Link activeClass="active" smooth={true} spy={true} to="contact">
               INTERESTS
             </Link>
+            </div>
           </li>
           </div>
           

@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: row;
     width: 90%;
-    gap: 30px;
+    /* gap: 30px; */
 }
 .icons{
     width: 15%;
-    background-color: black;
+    background-color: var(--black);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -28,11 +28,17 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: space-around;
-    padding: 40px 0 20px 0;
+    padding: 34px 0 20px 0;
     gap: 30px; 
     list-style: none; 
     font-size: 15px;
 }
 .sidenav ul li:hover{
     cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    background-color: var(--black);
+    color: white;
+}
+.side-link-div{
+    padding: 5px 20px;
 }

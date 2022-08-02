@@ -1,6 +1,9 @@
 import React from 'react'
 import ResumeNav from './ResumeCard/ResumeNav/ResumeNav'
 import './Resume.css'
+import Education from './ResumeCard/ResumeDetailsComp/Education'
+import WorkHistory from './ResumeCard/ResumeDetailsComp/WorkHistory'
+import ProgrammingSkills from './ResumeCard/ResumeDetailsComp/ProgrammingSkills'
 
 export default function Resume() {
   return (
@@ -22,7 +25,14 @@ export default function Resume() {
             </div>
             <div className='resume-card'>
                 <div className='resume-nav'><ResumeNav/></div>
-                <div className='resume-details'>details</div>
+                <div className='resume-details'>
+                    <section id="edu"><Education/></section>
+                    <section id="work"><WorkHistory/></section>
+                    <section id="skills"><ProgrammingSkills/></section>
+                    {/* <Education/>
+                    <WorkHistory/>
+                    <ProgrammingSkills/> */}
+                </div>
             </div>
 
         </div>

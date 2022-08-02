@@ -1,0 +1,42 @@
+.edu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 0;
+    height: 100%;
+}
+.edu-parent{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 25px;
+}
+.rw{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 95px;
+}
+.edu-school{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+}
+.orange{
+    color: var(--dark-orange);
+}
+.edu-year{
+    width: 95px;
+    height: 28px;
+    padding: 5px;
+    background-color: var(--dark-orange);
+    color: white;
+    border-radius: 50px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 8px;
+}
