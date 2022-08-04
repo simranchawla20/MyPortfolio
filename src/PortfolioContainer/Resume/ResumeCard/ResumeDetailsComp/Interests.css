@@ -1,0 +1,31 @@
+.int-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 70px;
+    height: 100%;
+}
+.int-parent{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 25px;
+}
+.int-rw{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 95px;
+}
+.int-interest{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+}
+.orange{
+    color: var(--dark-orange);
+}

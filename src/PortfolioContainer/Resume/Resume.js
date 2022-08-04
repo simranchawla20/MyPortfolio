@@ -4,6 +4,8 @@ import './Resume.css'
 import Education from './ResumeCard/ResumeDetailsComp/Education'
 import WorkHistory from './ResumeCard/ResumeDetailsComp/WorkHistory'
 import ProgrammingSkills from './ResumeCard/ResumeDetailsComp/ProgrammingSkills'
+import Projects from "./ResumeCard/ResumeDetailsComp/Projects"
+import Interests from "./ResumeCard/ResumeDetailsComp/Interests"
 
 export default function Resume() {
   return (
@@ -29,6 +31,10 @@ export default function Resume() {
                     <section id="edu"><Education/></section>
                     <section id="work"><WorkHistory/></section>
                     <section id="skills"><ProgrammingSkills/></section>
+                    <section id="skills"><Projects/></section>
+                    <section id="skills"><Interests/></section>
+                    
+
                     {/* <Education/>
                     <WorkHistory/>
                     <ProgrammingSkills/> */}

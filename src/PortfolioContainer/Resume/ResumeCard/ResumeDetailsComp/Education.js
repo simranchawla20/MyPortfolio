@@ -20,11 +20,10 @@ export default function Education() {
             <div className="rw">
             <div className="edu-school">
                 <span className="orange">
-                <i class="fa fa-circle" aria-hidden="true"></i> Chitkara
-                University, Punjab
+                <i class="fa fa-circle" aria-hidden="true"></i> Lawerance Public Sen. Sec. School, Mohali
                 </span>
                 <span style={{ "margin-left": "20px", "font-size": 13 }}>
-                Bachelor of Computer Science and Engineering
+                  High SChool (12th- 93%)
                 </span>
             </div>
             <div className="edu-year">2017-2019</div>
@@ -32,11 +31,10 @@ export default function Education() {
             <div className="rw">
             <div className="edu-school">
                 <span className="orange">
-                <i class="fa fa-circle" aria-hidden="true"></i> Chitkara
-                University, Punjab
+                <i class="fa fa-circle" aria-hidden="true"></i>Lawerance Public Sen. Sec. School, Mohali
                 </span>
                 <span style={{ "margin-left": "20px", "font-size": 13 }}>
-                Bachelor of Computer Science and Engineering
+                  Matrix (10th-10 CGPA)
                 </span>
             </div>
             <div className="edu-year">2015-2017</div>
