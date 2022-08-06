@@ -23,7 +23,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link activeClass="active" smooth spy to="testimonial">
+            <Link activeClass="active" smooth spy to="testi">
               TESTIMONIAL
             </Link>
           </li>

@@ -56,7 +56,7 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-optins">
-            <button className="btn primary-btn">
+            <button className="btn primary-btn" >
               {""}
               Hire Me{" "}
             </button>
