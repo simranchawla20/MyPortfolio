@@ -6,6 +6,7 @@
     height: 100%;
     margin-top: 50px;
     margin-bottom: 70px;
+    overflow: hidden;
 }
 .test-parent{
     width: 75%;

@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 70px 0 0; 
-    height: 100%;
+    /* margin: 70px 0 0;  */
+    height: 70vh;
 }
 .proj-parent{
     width: 80%;
