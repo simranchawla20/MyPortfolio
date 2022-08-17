@@ -3,6 +3,8 @@ import "./ContactMe.css";
 import Contactimg from "../../assets/Home/mailz.jpeg";
 import { useState } from "react";
 import { send } from "emailjs-com";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function ContactMe() {
   const [toSend, setToSend] = useState({
@@ -10,6 +12,7 @@ export default function ContactMe() {
     to_name: "",
     message: "",
   });
+  const [result, ShowResult]= useState(false);
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -19,12 +22,32 @@ export default function ContactMe() {
       toSend,
       'gBxOpG8i-ERbd3lx5'
     )
-      .then((response) => {
+      .then(
+        (response) => {
         console.log('SUCCESS!', response.status, response.text);
-      })
-      .catch((err) => {
+        toast("Your message is successfully sent to Simran via Mail, Thanks for contacting!");
+        // swal({
+        //   title: "Success",
+        //   text: "Your message is successfully sent to Simran via Mail, Thanks for contacting!",
+        //   icon: "success",
+        //   button: "ok",
+        // });
+      },(err) => {
         console.log('FAILED...', err);
+        toast("Failed to send your message to simran, Please try again later!");
+        // swal({
+        //   title: "Failure",
+        //   text: "Failed to send your message to simran, Please try again later!",
+        //   icon: "Failure",
+        //   button: "ok",
+        // });
       });
+      e.target.reset();
+      ShowResult(true);
+      setToSend({
+        from_name: "",
+        message: "",})
+      
   };
 
   const handleChange = (e) => {
@@ -104,7 +127,8 @@ export default function ContactMe() {
                   onChange={handleChange}
                 />
                 <br></br>
-                <button type="submit" className="btn primary-btn">Submit <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                <button type="submit" className="btn primary-btn">Send <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                <ToastContainer toastStyle={{ backgroundColor: "Green",color:"white" }}/>
               </form>
             </div>
           </div>

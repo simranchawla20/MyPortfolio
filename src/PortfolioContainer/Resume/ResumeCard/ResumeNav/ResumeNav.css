@@ -35,9 +35,14 @@
 }
 .sidenav ul li:hover{
     cursor: pointer;
-    border-radius: 0 50px 50px 0;
+    /* border-radius: 0 50px 50px 0;
+    background-color: var(--black);
+    color: white; */
+}
+.current-resume{
     background-color: var(--black);
     color: white;
+    border-radius: 0 50px 50px 0;
 }
 .side-link-div{
     padding: 5px 20px;

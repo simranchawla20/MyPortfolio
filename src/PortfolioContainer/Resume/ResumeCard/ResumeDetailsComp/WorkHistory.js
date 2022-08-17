@@ -18,7 +18,7 @@ export default function WorkHistory() {
                     <i class="fa fa-circle blck-bullet" aria-hidden="true"></i>Performed complete localization to one of the Origo Live Apps in <br></br>&ensp;&nbsp;&nbsp;Flutter.<br></br>
                     <i class="fa fa-circle blck-bullet" aria-hidden="true"></i>Build Api's for Another Live App using SpringBoot.<br></br>
                     <i class="fa fa-circle blck-bullet" aria-hidden="true"></i>Worked on the UI of one of the Apps to look better, in Flutter.<br></br>
-                    <i class="fa fa-circle blck-bullet" aria-hidden="true"></i>Working as a React Developer, on the UI and functioning of the Origo &ensp;&nbsp;E-Mandi live Website.
+                    <i class="fa fa-circle blck-bullet" aria-hidden="true"></i>Working as a React Developer, Handling whole Origo E-Mandi live &ensp;&nbsp;&nbsp;&nbsp;&nbsp;website.
                 </div>
             </div>
         </div>

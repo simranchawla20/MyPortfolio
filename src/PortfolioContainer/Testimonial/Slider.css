@@ -6,14 +6,14 @@
     height: 250px;
     margin: auto;
     position: relative;
-    width: 90%;
+    width: 31%;
     display: grid;
     place-items: center;
 }
 .slide-track{
     display: flex;
     width: calc(250px*18);
-    animation: scroll 60s linear infinite;
+    animation: scroll 69s linear infinite;
 }
 .slide-track:hover{
     animation-play-state: paused;
@@ -62,3 +62,4 @@
     top:0;
     transform: rotateZ(180deg);
 }
+

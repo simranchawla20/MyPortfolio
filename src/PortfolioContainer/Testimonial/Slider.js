@@ -31,43 +31,7 @@ export default function Slider() {
                 <div className='slide'>
                     <img src={linkedIn}></img>
                 </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
-                <div className='slide'>
-                    <img src={linkedIn}></img>
-                </div>
+                
 
             </div>
         </div>

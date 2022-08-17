@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ResumeNav from './ResumeCard/ResumeNav/ResumeNav'
 import './Resume.css'
 import Education from './ResumeCard/ResumeDetailsComp/Education'
@@ -8,6 +8,13 @@ import Projects from "./ResumeCard/ResumeDetailsComp/Projects"
 import Interests from "./ResumeCard/ResumeDetailsComp/Interests"
 
 export default function Resume() {
+    const [comp, setComp]=useState({
+        education:true,
+        work:false,
+        skills:false,
+        projects:false,
+        interests:false
+    })
   return (
     <div className='resume-container'>
         <div className='resume-parent'>
@@ -26,18 +33,14 @@ export default function Resume() {
                 </div>
             </div>
             <div className='resume-card'>
-                <div className='resume-nav'><ResumeNav/></div>
+                <div className='resume-nav'><ResumeNav navProp={setComp}/></div>
                 <div className='resume-details'>
-                    <section id="edu"><Education/></section>
+                    {comp.education?(<section id="edu"><Education/></section>):comp.work?(<section id="work"><WorkHistory/></section>):comp.skills?(<section id="skills"><ProgrammingSkills/></section>):comp.projects?(<section id="projects"><Projects/></section>):comp.interests?(<section id="interests"><Interests/></section>):"nothing"}
+                    {/* <section id="edu"><Education/></section>
                     <section id="work"><WorkHistory/></section>
                     <section id="skills"><ProgrammingSkills/></section>
-                    <section id="skills"><Projects/></section>
-                    <section id="skills"><Interests/></section>
-                    
-
-                    {/* <Education/>
-                    <WorkHistory/>
-                    <ProgrammingSkills/> */}
+                    <section id="projects"><Projects/></section>
+                    <section id="interests"><Interests/></section> */}
                 </div>
             </div>
 
