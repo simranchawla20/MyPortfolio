@@ -9,10 +9,10 @@ export default function Testimonial() {
         <div className='testparent'>
             <div className='heading-container'>
                 <div className='screen-heading'>
-                    <span>Testimonial</span>
+                    <span>Certifications & Others</span>
                 </div>
                 <div className='screen-sub-heading'>
-                    <span>What my people say about me</span>
+                    <span>Have a Look on my little achievements</span>
                 </div>
                 <div className='heading-separater'>
                     <div className='separater-line'></div>

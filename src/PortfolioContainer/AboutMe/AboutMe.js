@@ -1,5 +1,6 @@
 import React from 'react'
 import './AboutMe.css'
+import { Link } from 'react-scroll';
 
 export default function AboutMe() {
   return (
@@ -57,7 +58,10 @@ export default function AboutMe() {
               </div>
             </div>
             <div class="about-me-options">
-              <button class="btn primary-btn"> Hire Me </button>
+              <button class="btn primary-btn">
+                <Link activeClass="active" smooth spy to="contact">
+                  Hire Me
+                </Link></button>
               <a href="Simran_Resume.pdf" download="Ehiedu Ehizcv.pdf">
                 <button class="btn highlighted-btn">Get Resume</button>
               </a>
