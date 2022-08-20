@@ -69,3 +69,19 @@
     width: 70%;
     overflow: auto;
 }
+@media screen and (max-width: 1110px){
+    .resume-parent {
+        width: 80%;
+    }
+    .resume-card {
+        height: 46vh;
+    }
+}
+@media screen and (max-width: 910px){
+    .resume-parent {
+        width: 75%;
+    }
+    .resume-card {
+        height: 65vh;
+    }
+}

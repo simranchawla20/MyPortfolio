@@ -17,6 +17,7 @@
 .icons>i{
     color: white;
     size: 30px;
+    margin-left: 10px;
 }
 .sidenav{
     width: 85%;
@@ -48,6 +49,11 @@
     padding: 5px 20px;
 }
 @media screen and (max-width: 1110px){
+    .sidenav ul{
+        gap: 49px;
+    }
+}
+@media screen and (max-width: 910px){
     .sidenav ul{
         gap: 72px;
     }

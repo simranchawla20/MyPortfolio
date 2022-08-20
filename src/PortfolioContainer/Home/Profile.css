@@ -97,6 +97,9 @@
         width: 320px;
         margin: 0 0 0 4px;
     }
+    .resume-btn{
+        margin-left: 43px !important;
+    }
 }
 @media screen and (max-width: 810px){
     .profile-picture{

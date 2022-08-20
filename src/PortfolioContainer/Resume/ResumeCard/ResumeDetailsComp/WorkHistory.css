@@ -46,3 +46,16 @@ i{
 .blck-bullet{
     font-size: 5px;
 }
+@media screen and (max-width: 1110px){
+    .work-container {
+        height: 47vh;
+    }
+}
+@media screen and (max-width: 910px){
+    .edu-year {
+        width: 144px;
+    }
+    .work-container {
+        height: 64vh;
+    }
+}

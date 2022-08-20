@@ -57,13 +57,13 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-optins">
-            <button className="btn primary-btn">
+            <button className="btn primary-btn hireme-btn">
               {""}
               <Link activeClass="active" smooth spy to="contact">
               Hire Me
             </Link>{" "}
             </button>
-            <a href="Simran_Resume.pdf" download="Simran_Resume.pdf">
+            <a href="Simran_Resume.pdf" download="Simran_Resume.pdf" className="resume-btn">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

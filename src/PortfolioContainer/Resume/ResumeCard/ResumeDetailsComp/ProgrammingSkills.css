@@ -24,3 +24,13 @@
     display: flex;
     flex-direction: column;
 }
+@media screen and (max-width: 1110px){
+    .skill-container {
+        height: 47vh;
+    }
+}
+@media screen and (max-width: 910px){
+    .skill-container {
+        height: 64vh;
+    }
+}

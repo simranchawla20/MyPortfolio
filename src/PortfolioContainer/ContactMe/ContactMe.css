@@ -125,13 +125,27 @@ button{
 @media screen and (max-width: 1110px){
     .contact-form-card{
         height: 45vh;
-        padding-left: 64px;
+        padding-left: 45px;
         margin-bottom: 20px;
     }
     input{
-        width: 23vw;
+        width: 26vw;
     }
     .send-email>img {
         height: 19vh;
+    }
+    .send-btn{
+        margin-left: 82px !important;
+    }
+}
+@media screen and (max-width: 910px){
+    .contact-form-card {
+        padding-left: 32px;
+    }
+    input {
+        width: 28vw;
+    }
+    .send-email>img {
+        height: 15vh;
     }
 }

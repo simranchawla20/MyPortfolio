@@ -40,3 +40,16 @@
     text-align: center;
     padding-top: 8px;
 }
+@media screen and (max-width: 1110px){
+    .edu-container {
+        height: 47vh;
+    }
+}
+@media screen and (max-width: 910px){
+    .edu-year {
+        width: 109px;
+    }
+    .edu-container {
+        height: 64vh;
+    }
+}

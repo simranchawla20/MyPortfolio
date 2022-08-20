@@ -82,8 +82,12 @@
 }
 
 @media only screen and (max-width:1110px){
-    .footer-parent{
-        display: flex;
-        align-items: flex-end;
+    .slider {
+        width: 28% !important;
+    }
+}
+@media only screen and (max-width:910px){
+    .slider {
+        width: 21% !important;
     }
 }

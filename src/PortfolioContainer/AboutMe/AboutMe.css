@@ -94,18 +94,29 @@
 
 @media screen and (max-width: 1110px){
     .about-me-highlights {
-        margin: 34px 0;
+        margin: 47px 0;
     }
     .about-me-options{
         display: flex;
     }
-    .hire-me{
+    .hireme-btn-abt{
         flex: 1;
     }
     .get-resume{
         flex: 1;
     }
+    .hireme-btn-abt {
+        margin-left: 22px !important;
+    }
+    .about-parent {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 910px){
+    .hireme-btn-abt {
+        margin-left: -13px !important;
+    }
     .btn{
-        width: 119px !important;
+        width: 142px;
     }
 }

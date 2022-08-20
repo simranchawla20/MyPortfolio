@@ -29,3 +29,13 @@
 .orange{
     color: var(--dark-orange);
 }
+@media screen and (max-width: 1110px){
+    .int-container {
+        height: 47vh;
+    }
+}
+@media screen and (max-width: 910px){
+    .int-container {
+        height: 64vh;
+    }
+}
