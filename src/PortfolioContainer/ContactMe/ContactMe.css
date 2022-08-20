@@ -121,6 +121,17 @@ input{
 button{
     margin-top: 25px;
     margin-left: 50px;
-    /* margin-bottom: 30px; */
-    /* font-size: 15px !important; */
+}
+@media screen and (max-width: 1110px){
+    .contact-form-card{
+        height: 45vh;
+        padding-left: 64px;
+        margin-bottom: 20px;
+    }
+    input{
+        width: 23vw;
+    }
+    .send-email>img {
+        height: 19vh;
+    }
 }

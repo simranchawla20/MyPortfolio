@@ -58,11 +58,12 @@ export default function AboutMe() {
               </div>
             </div>
             <div class="about-me-options">
-              <button class="btn primary-btn">
+              <button class="btn primary-btn hire-me">
                 <Link activeClass="active" smooth spy to="contact">
                   Hire Me
-                </Link></button>
-              <a href="Simran_Resume.pdf" download="Ehiedu Ehizcv.pdf">
+                </Link>
+              </button>
+              <a href="Simran_Resume.pdf" download="Ehiedu Ehizcv.pdf" className='get-resume'>
                 <button class="btn highlighted-btn">Get Resume</button>
               </a>
             </div>

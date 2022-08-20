@@ -16,7 +16,7 @@
 }
 .icons>i{
     color: white;
-    size: 30px;;
+    size: 30px;
 }
 .sidenav{
     width: 85%;
@@ -46,4 +46,9 @@
 }
 .side-link-div{
     padding: 5px 20px;
+}
+@media screen and (max-width: 1110px){
+    .sidenav ul{
+        gap: 72px;
+    }
 }
