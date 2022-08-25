@@ -20,3 +20,8 @@
         align-items: flex-end;
     }
 }
+@media only screen and (max-width:375px){
+    .footer-parent img {
+        height: 51px;
+    }
+}

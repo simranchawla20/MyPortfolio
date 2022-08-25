@@ -105,3 +105,20 @@ i{
         width: fit-content;
     }
 }
+@media screen and (max-width: 375px){
+    .proj-head-rw1 {
+        gap: 24px;
+    }
+    .proj-head-rw2 {
+        gap: 37px;
+    }
+    .proj-head-rw3 {
+        gap: 20px;
+    }
+    .desc-highlight {
+        font-size: 9px;
+    }
+    .desc-curr {
+        font-size: 7px;
+    }
+}

@@ -100,4 +100,12 @@
     .footer-parent .testi-footer {
         max-width: 65%;
     }
+    .slider {
+        width: 12% !important;
+    }
+}
+@media only screen and (max-width:375px){
+    .slider {
+        width: 9% !important;
+    }
 }

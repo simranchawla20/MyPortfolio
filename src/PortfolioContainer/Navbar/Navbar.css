@@ -43,3 +43,11 @@
         padding-inline-start: 0px;
     }
 }
+@media screen and (max-width:375px) {
+    .top-nav {
+        padding: 0 0rem;
+    }
+    .top-nav li {
+        margin: 0 7.5px;
+    }
+}

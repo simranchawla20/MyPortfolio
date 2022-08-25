@@ -189,3 +189,26 @@ button{
         width: 42vw;
     }
 }
+@media screen and (max-width: 510px){
+    .contact-card {
+        flex-direction: column;
+    }
+    .send-email {
+        display: none;
+    }
+    .get-touch {
+        width: 151px;
+    }
+    .contact-form-card {
+        width: 83vw;
+    }
+    input {
+        width: 68vw;
+    }
+    .send-btn {
+        margin-left: 73px !important;
+    }
+    .get-touch {
+        margin-top: 12px;
+    }
+}

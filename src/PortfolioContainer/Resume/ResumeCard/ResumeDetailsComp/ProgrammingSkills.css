@@ -39,3 +39,11 @@
         height: 68vh;
     }
 }
+@media screen and (max-width: 375px){
+    .skill-name{
+        font-size: 13px;
+    }
+    .skill-name-js{
+        font-size: 10px;
+    }
+}

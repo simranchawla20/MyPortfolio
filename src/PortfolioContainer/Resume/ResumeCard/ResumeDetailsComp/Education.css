@@ -69,3 +69,12 @@
         font-size: 11px !important;
     }
 }
+@media screen and (max-width: 375px){
+    .edu-school {
+        gap: 0px;
+    }
+    .edu-year {
+        width: 120px !important;
+        font-size: 8px !important;
+    }
+}

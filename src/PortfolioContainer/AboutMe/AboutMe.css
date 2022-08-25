@@ -140,4 +140,19 @@
         width: 116px;
     }
 }
+@media screen and (max-width: 375px){
+    .about-me-description {
+        font-size: 11px;
+    }
+    .about-me-highlights {
+        margin: 27px 0;
+    }
+    .btn {
+        width: 102px;
+    }
+    .about-me-options {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
 

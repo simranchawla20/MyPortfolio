@@ -75,3 +75,15 @@ i{
         font-size: 11px;
     }
 }
+@media screen and (max-width: 375px){
+    .orange {
+        font-size: 11px;
+    }
+    .desc-points {
+        font-size: 9px;
+    }
+    .edu-year {
+        font-size: 6px !important;
+        height: 23px !important;
+    }
+}

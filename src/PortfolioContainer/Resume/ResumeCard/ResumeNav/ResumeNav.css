@@ -63,3 +63,12 @@
         font-size: 13px;
     }
 }
+@media screen and (max-width: 375px){
+    .side-link-div {
+        padding: 5px 11px;
+        font-size: 12px;
+    }
+    .nav-container {
+        width: 99%;
+    }
+}

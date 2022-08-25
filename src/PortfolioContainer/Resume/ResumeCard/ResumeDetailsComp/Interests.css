@@ -44,3 +44,11 @@
         height: 68vh;
     }
 }
+@media screen and (max-width: 375px){
+    .int-parent {
+        gap: 12px;
+    }
+    .int-dtl{
+        font-size: 10px !important;
+    }
+}

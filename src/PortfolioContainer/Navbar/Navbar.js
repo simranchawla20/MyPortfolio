@@ -24,7 +24,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link activeClass="active" smooth spy to="testi">
-              TESTIMONIAL
+              CERTIFICATIONS  
             </Link>
           </li>
           <li>
