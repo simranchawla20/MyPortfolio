@@ -55,6 +55,11 @@
 }
 @media screen and (max-width: 910px){
     .sidenav ul{
-        gap: 72px;
+        gap: 35px;
+    }
+}
+@media screen and (max-width: 510px){
+    .sidenav ul {
+        font-size: 13px;
     }
 }

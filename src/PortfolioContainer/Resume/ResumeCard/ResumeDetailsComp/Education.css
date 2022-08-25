@@ -42,7 +42,7 @@
 }
 @media screen and (max-width: 1110px){
     .edu-container {
-        height: 47vh;
+        height: 56vh;
     }
 }
 @media screen and (max-width: 910px){
@@ -50,6 +50,22 @@
         width: 109px;
     }
     .edu-container {
-        height: 64vh;
+        height: 63vh;
+    }
+}
+@media screen and (max-width: 710px){
+    .edu-container {
+        height: 68vh;
+    }
+}
+@media screen and (max-width: 510px){
+    .rw {
+        gap: 0px;
+    }
+    .orange {
+        font-size: 14px;
+    }
+    .cls{
+        font-size: 11px !important;
     }
 }

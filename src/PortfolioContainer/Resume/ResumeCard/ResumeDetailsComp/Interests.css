@@ -31,11 +31,16 @@
 }
 @media screen and (max-width: 1110px){
     .int-container {
-        height: 47vh;
+        height: 56vh;
     }
 }
 @media screen and (max-width: 910px){
     .int-container {
-        height: 64vh;
+        height: 63vh;
+    }
+}
+@media screen and (max-width: 710px){
+    .int-container {
+        height: 68vh;
     }
 }

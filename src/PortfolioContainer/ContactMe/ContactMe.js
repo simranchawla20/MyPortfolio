@@ -128,7 +128,7 @@ export default function ContactMe() {
                 />
                 <br></br>
                 <button type="submit" className="btn primary-btn send-btn">Send <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                <ToastContainer toastStyle={{ backgroundColor: "Green",color:"white" }}/>
+                <ToastContainer toastStyle={{ backgroundColor: "rgb(194, 218, 240)",color:"black" }}/>
               </form>
             </div>
           </div>

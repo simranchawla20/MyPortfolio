@@ -74,7 +74,7 @@
         width: 80%;
     }
     .resume-card {
-        height: 46vh;
+        height: 56vh;
     }
 }
 @media screen and (max-width: 910px){
@@ -82,6 +82,20 @@
         width: 75%;
     }
     .resume-card {
-        height: 65vh;
+        height: 63vh;
     }
+}
+@media screen and (max-width: 710px){
+    .resume-parent {
+        width: 94%;
+    }
+    .resume-card {
+        height: 68vh;
+    }
+}
+@media screen and (max-width: 510px){
+    .resume-card {
+        height: 66vh;
+    }
+    
 }

@@ -26,11 +26,16 @@
 }
 @media screen and (max-width: 1110px){
     .skill-container {
-        height: 47vh;
+        height: 56vh;
     }
 }
 @media screen and (max-width: 910px){
     .skill-container {
-        height: 64vh;
+        height: 63vh;
+    }
+}
+@media screen and (max-width: 710px){
+    .skill-container {
+        height: 68vh;
     }
 }

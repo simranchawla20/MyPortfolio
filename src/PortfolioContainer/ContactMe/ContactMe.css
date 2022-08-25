@@ -99,7 +99,7 @@
 }
 .contact-form-card{
     width: 35vw;
-    height: 54vh;
+    height: 55vh;
     background-color: white;
     margin-top: 20px;
     margin-left: 10px;
@@ -124,7 +124,7 @@ button{
 }
 @media screen and (max-width: 1110px){
     .contact-form-card{
-        height: 45vh;
+        height: 49vh;
         padding-left: 45px;
         margin-bottom: 20px;
     }
@@ -141,11 +141,51 @@ button{
 @media screen and (max-width: 910px){
     .contact-form-card {
         padding-left: 32px;
+        height: 58vh;
     }
     input {
         width: 28vw;
     }
     .send-email>img {
         height: 15vh;
+    }
+    .send-btn{
+        margin-left: 51px !important;
+    }
+}
+@media screen and (max-width: 710px){
+    .contact-parent {
+        width: 89%;
+    }
+    .contact-form-card {
+        height: 62vh;
+        padding-left: 25px;
+        width: 40vw;
+    }
+    input {
+        width: 33vw;
+    }
+    .send-btn {
+        margin-left: 25px !important;
+    }
+}
+@media screen and (max-width: 510px){
+    .contact-parent {
+        margin-top: -67px;
+    }
+    .send-email>span {
+        font-size: 10px;
+    }
+    .get-touch {
+        font-size: 15px;
+    }
+    .contact-text {
+        width: 38%;
+    }
+    .contact-form-card {
+        width: 50vw;
+    }
+    input {
+        width: 42vw;
     }
 }

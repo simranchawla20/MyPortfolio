@@ -27,7 +27,7 @@ export default function Testimonial() {
                 </div>
                 <div className='footer-container'>
                     <div className='footer-parent'>
-                        <img src={Diamond} />
+                        <img className="testi-footer" src={Diamond} />
                     </div>
                 </div>
             </div>

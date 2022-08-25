@@ -56,12 +56,12 @@ i{
 }
 @media screen and (max-width: 1110px){
     .proj-container {
-        height: 47vh;
+        height: 56vh;
     }
 }
 @media screen and (max-width: 910px){
     .proj-container {
-        height: 64vh;
+        height: 63vh;
     }
     .proj-head-rw1 {
         gap: 60px;
@@ -73,4 +73,35 @@ i{
         gap: 100px;
     }
 
+}
+@media screen and (max-width: 710px){
+    .proj-container {
+        height: 68vh;
+    }
+    .desc-highlight {
+        font-size: 13px;
+    }
+    .desc-curr {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 510px){
+    .desc-highlight {
+        font-size: 11px;
+    }
+    .desc-curr {
+        font-size: 11px;
+    }
+    .proj-head-rw2 {
+        gap: 88px;
+    }
+    .proj-head-rw3 {
+        gap: 94px;
+    }
+    .orange {
+        font-size: 13px;
+    }
+    .edu-year {
+        width: fit-content;
+    }
 }

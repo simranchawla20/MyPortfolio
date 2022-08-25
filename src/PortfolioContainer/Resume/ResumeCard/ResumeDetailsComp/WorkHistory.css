@@ -48,7 +48,7 @@ i{
 }
 @media screen and (max-width: 1110px){
     .work-container {
-        height: 47vh;
+        height: 56vh;
     }
 }
 @media screen and (max-width: 910px){
@@ -56,6 +56,22 @@ i{
         width: 144px;
     }
     .work-container {
-        height: 64vh;
+        height: 63vh;
+    }
+}
+@media screen and (max-width: 710px){
+    .work-container {
+        height: 68vh;
+    }
+}
+@media screen and (max-width: 510px){
+    .orange {
+        font-size: 14px;
+    }
+    .head-rw {
+        gap: 12px;
+    }
+    .desc-curr, .desc-points {
+        font-size: 11px;
     }
 }

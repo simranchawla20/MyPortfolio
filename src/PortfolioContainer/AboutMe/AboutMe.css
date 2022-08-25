@@ -120,3 +120,24 @@
         width: 142px;
     }
 }
+@media screen and (max-width: 710px){
+    .about-profile {
+        display: none;
+    }
+    .about-details {
+        width: 100%;
+    }
+    .btn {
+        width: 184px;
+    }
+    .about-me-options {
+        margin-left: 54px;
+        margin-right: 54px;
+    }
+}
+@media screen and (max-width: 510px){
+    .btn {
+        width: 116px;
+    }
+}
+

@@ -11,7 +11,7 @@ export default function Education() {
                 <i class="fa fa-circle" aria-hidden="true"></i> Chitkara
                 University, Punjab
                 </span>
-                <span style={{ "margin-left": "20px", "font-size": 13 }}>
+                <span className="cls" style={{ "margin-left": "20px", "font-size": 13 }}>
                 Bachelor of Computer Science and Engineering
                 </span>
             </div>
@@ -22,7 +22,7 @@ export default function Education() {
                 <span className="orange">
                 <i class="fa fa-circle" aria-hidden="true"></i> Lawerance Public Sen. Sec. School, Mohali
                 </span>
-                <span style={{ "margin-left": "20px", "font-size": 13 }}>
+                <span className="cls" style={{ "margin-left": "20px", "font-size": 13 }}>
                   High SChool (12th- 93%)
                 </span>
             </div>
@@ -33,7 +33,7 @@ export default function Education() {
                 <span className="orange">
                 <i class="fa fa-circle" aria-hidden="true"></i>Lawerance Public Sen. Sec. School, Mohali
                 </span>
-                <span style={{ "margin-left": "20px", "font-size": 13 }}>
+                <span className="cls" style={{ "margin-left": "20px", "font-size": 13 }}>
                   Matrix (10th-10 CGPA)
                 </span>
             </div>

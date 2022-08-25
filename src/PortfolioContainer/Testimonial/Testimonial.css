@@ -91,3 +91,13 @@
         width: 21% !important;
     }
 }
+@media only screen and (max-width:710px){
+    .slider {
+        width: 17% !important;
+    }
+}
+@media only screen and (max-width:510px){
+    .footer-parent .testi-footer {
+        max-width: 65%;
+    }
+}

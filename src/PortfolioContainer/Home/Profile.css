@@ -123,6 +123,9 @@
         text-align: center;
     }
 }
+.profile-optins {
+    justify-content: space-evenly;
+}
 @media screen and (max-width: 375px){
     .profile-picture{
         height: 275px;
