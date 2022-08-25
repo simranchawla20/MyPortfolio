@@ -115,6 +115,7 @@ export default function ContactMe() {
                   placeholder="Enter your name"
                   value={toSend.from_name}
                   onChange={handleChange}
+                  required
                 />
                 <br></br>
                 <label>Message</label>
@@ -125,6 +126,7 @@ export default function ContactMe() {
                   placeholder="Your message"
                   value={toSend.message}
                   onChange={handleChange}
+                  required
                 />
                 <br></br>
                 <button type="submit" className="btn primary-btn send-btn">Send <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
