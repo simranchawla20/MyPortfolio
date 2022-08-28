@@ -63,7 +63,7 @@ export default function AboutMe() {
                   Hire Me
                 </Link>
               </button>
-              <a href="Simran_Resume.pdf" download="Ehiedu Ehizcv.pdf" className='resume-btn-abt'>
+              <a href="Simran_Resume.pdf" download="simran_resume_updated" className='resume-btn-abt'>
                 <button class="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
