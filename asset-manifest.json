@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.5395c41d.css",
+    "main.css": "/MyPortfolio/static/css/main.6a03c84d.css",
     "main.js": "/MyPortfolio/static/js/main.b158b08e.js",
     "static/js/787.c4e7f8f9.chunk.js": "/MyPortfolio/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/mepic.jpeg": "/MyPortfolio/static/media/mepic.2ebad4d09414112ffbbe.jpeg",
     "static/media/java.png": "/MyPortfolio/static/media/java.41ca5a1d4bc62364d79b.png",
     "static/media/Poppins-Thin.ttf": "/MyPortfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/MyPortfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
@@ -14,7 +15,6 @@
     "static/media/mePic_2222.jpg": "/MyPortfolio/static/media/mePic_2222.af9ee17cc399d75b1ffd.jpg",
     "static/media/web.png": "/MyPortfolio/static/media/web.11676762703e088337cf.png",
     "static/media/mailz.jpeg": "/MyPortfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
-    "static/media/mePic8.jpeg": "/MyPortfolio/static/media/mePic8.69bff20688eae4447736.jpeg",
     "static/media/linux.png": "/MyPortfolio/static/media/linux.574d3c1bc0ddb5eacd51.png",
     "static/media/bg.jpg": "/MyPortfolio/static/media/bg.d580cd375921d13ae60d.jpg",
     "static/media/python.png": "/MyPortfolio/static/media/python.110e0850d4cf755686ab.png",
@@ -23,12 +23,12 @@
     "static/media/coding4.jpg": "/MyPortfolio/static/media/coding4.8f5b174bb1281dd5c509.jpg",
     "static/media/coding3.jpg": "/MyPortfolio/static/media/coding3.dc64a1702dbd9ee1146c.jpg",
     "index.html": "/MyPortfolio/index.html",
-    "main.5395c41d.css.map": "/MyPortfolio/static/css/main.5395c41d.css.map",
+    "main.6a03c84d.css.map": "/MyPortfolio/static/css/main.6a03c84d.css.map",
     "main.b158b08e.js.map": "/MyPortfolio/static/js/main.b158b08e.js.map",
     "787.c4e7f8f9.chunk.js.map": "/MyPortfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5395c41d.css",
+    "static/css/main.6a03c84d.css",
     "static/js/main.b158b08e.js"
   ]
 }
