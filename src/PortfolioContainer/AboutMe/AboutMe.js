@@ -24,9 +24,9 @@ export default function AboutMe() {
           <div className='about-profile'></div>
           <div className='about-details'>
             <span class="about-me-description">Full stack web developer with 
-            background knowledge of MERN stack, along with a knack of 
-            building User Interace with Flutter .Have an Experience of building Rest API's using SpringBoot technology
-             with utmost efficiency. Strong SQL knowledge with database handling.
+            background knowledge of React, Java, along with a knack of 
+            building Rest API's using SpringBoot technology .Have an Experience of building User Interace with Flutter
+            . Strong SQL knowledge with database handling.
             Willing to be an asset for an organization.</span>
             <div class="about-me-highlights">
               <div class="highlight-heading">
@@ -43,6 +43,10 @@ export default function AboutMe() {
               <div class="highlight">
                 <div class="highlight-blob"></div>
                 <span>React</span>
+              </div>
+              <div class="highlight">
+                <div class="highlight-blob"></div>
+                <span>Java</span>
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
