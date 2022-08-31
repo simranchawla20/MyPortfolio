@@ -99,3 +99,9 @@
     }
     
 }
+@media screen and (max-width: 510px){
+    .resume-card {
+        height: fit-content;
+    }
+    
+}

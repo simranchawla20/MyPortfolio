@@ -72,3 +72,11 @@
         width: 99%;
     }
 }
+@media screen and (max-width: 400px){
+    .side-link-div {
+        padding: 5px 6px;
+    }
+    .icons {
+        width: 22%;
+    }
+}

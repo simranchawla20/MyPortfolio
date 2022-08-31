@@ -122,3 +122,18 @@ i{
         font-size: 7px;
     }
 }
+@media screen and (max-width: 400px){
+    .proj-container {
+        height: 78vh;
+    }
+    .desc-highlight {
+        font-size: 9px;
+    }
+    .desc-curr {
+        font-size: 9px;
+    }
+    .edu-year {
+        width: fit-content;
+        height: fit-content;
+    }
+}

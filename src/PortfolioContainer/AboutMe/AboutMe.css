@@ -155,4 +155,9 @@
         margin-right: 6px;
     }
 }
-
+@media screen and (max-width:400px) {
+    .about-me-options {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

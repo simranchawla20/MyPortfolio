@@ -52,3 +52,11 @@
         font-size: 10px !important;
     }
 }
+@media screen and (max-width: 400px){
+    .int-container {
+        height: 78vh;
+    }
+    .int-dtl{
+        font-size: 11px !important;
+    }
+}
