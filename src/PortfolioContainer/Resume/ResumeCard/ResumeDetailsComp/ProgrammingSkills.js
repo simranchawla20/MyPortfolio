@@ -12,11 +12,11 @@ export default function ProgrammingSkills() {
         <div className='skill-parent'>
             <div className='skills'>
                 <div className='orangee'>
-                    <span className='skill-name'><i class="fa fa-circle" aria-hidden="true"></i><b>HTML</b></span>
+                    <span className='skill-name'><i class="fa fa-circle" aria-hidden="true"></i><b>HTML5</b></span>
                     <ProgressBar bgcolor={testData[0].bgcolor} completed='90' />
                 </div>
                 <div className='orangee'>
-                    <span className='skill-name'><i class="fa fa-circle" aria-hidden="true"></i><b>CSS</b></span>
+                    <span className='skill-name'><i class="fa fa-circle" aria-hidden="true"></i><b>CSS3</b></span>
                     <ProgressBar bgcolor={testData[0].bgcolor} completed='90' />
                 </div>
                 <div className='orangee'>

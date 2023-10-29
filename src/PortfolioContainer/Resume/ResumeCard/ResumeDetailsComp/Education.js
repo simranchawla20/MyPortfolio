@@ -15,7 +15,7 @@ export default function Education() {
                 Bachelor of Computer Science and Engineering
                 </span>
             </div>
-            <div className="edu-year">2019-Present</div>
+            <div className="edu-year">2019-2023</div>
             </div>
             <div className="rw">
             <div className="edu-school">
