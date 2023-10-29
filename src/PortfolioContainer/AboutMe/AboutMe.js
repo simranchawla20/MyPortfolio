@@ -1,6 +1,7 @@
 import React from 'react'
 import './AboutMe.css'
 import { Link } from 'react-scroll';
+import ProfileFull from '../../assets/Home/convoFull.jpg';
 
 export default function AboutMe() {
   return (
@@ -21,7 +22,9 @@ export default function AboutMe() {
           </div>
         </div>
         <div className='about-card'>
-          <div className='about-profile'></div>
+          <div className='about-profile'>
+            <img src={ProfileFull}></img>
+          </div>
           <div className='about-details'>
             <span class="about-me-description">Passionate Software Developer with a strong foundation in web application development and a commitment to crafting seamless user experiences.
             I am driven by the desire to stay at the forefront of technological advancements and continuously enhance my skills. My goal is to contribute to innovative projects that create meaningful impacts, ensuring that technology serves as an enabler of positive change. I'm excited to collaborate with like-minded professionals, learn from diverse perspectives, and bring creative solutions to the table.</span>
