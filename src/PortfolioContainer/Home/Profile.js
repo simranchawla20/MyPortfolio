@@ -38,15 +38,15 @@ export default function Profile() {
                   steps={[
                     "Enthusiastic Dev 🔴",
                     2000,
-                    "Full Stack Developer 💻",
+                    "Frontend Developer 💻",
                     2000,
-                    "MERN Stack Developer 😃",
+                    "React Js Developer 😃",
                     2000,
                     "Java Developer 👽",
                     2000,
                     "Database Handler 🛢️",
                     2000,
-                    "Flutter Developer 🐜",
+                    "Responsive Web UI Dev 🐜",
                     2000,
                   ]}
                 />
@@ -63,7 +63,7 @@ export default function Profile() {
               Hire Me
             </Link>{" "}
             </button>
-            <a href="Simran_Resume.pdf" download="Simran_Resume_updated.pdf" className="resume-btn">
+            <a href="Simran_Resume.pdf" download="Resume@Simranjeet.pdf" className="resume-btn">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

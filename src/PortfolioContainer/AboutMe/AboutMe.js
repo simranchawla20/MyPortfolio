@@ -23,42 +23,43 @@ export default function AboutMe() {
         <div className='about-card'>
           <div className='about-profile'></div>
           <div className='about-details'>
-            <span class="about-me-description">Full stack web developer with 
-            background knowledge of React, Java, along with a knack of 
-            building Rest API's using SpringBoot technology .Have an Experience of building User Interace with Flutter
-            . Strong SQL knowledge with database handling.
-            Willing to be an asset for an organization.</span>
+            <span class="about-me-description">Passionate Software Developer with a strong foundation in web application development and a commitment to crafting seamless user experiences.
+            I am driven by the desire to stay at the forefront of technological advancements and continuously enhance my skills. My goal is to contribute to innovative projects that create meaningful impacts, ensuring that technology serves as an enabler of positive change. I'm excited to collaborate with like-minded professionals, learn from diverse perspectives, and bring creative solutions to the table.</span>
             <div class="about-me-highlights">
               <div class="highlight-heading">
                 <span>Here are a Few Highlights:</span>
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
-                <span>Full Stack web development</span>
+                <span>Web Developer</span>
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
-                <span>Interactive Front End as per the design</span>
+                <span>Responsive User Interface</span>
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
-                <span>React</span>
+                <span>React Js Developer</span>
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
-                <span>Java</span>
+                <span>Java Data Structures and Algo</span>
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
-                <span>Flutter</span>
+                <span>Flutter (Beginenr)</span>
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
-                <span>Building REST API</span>
+                <span>Restful APIs</span>
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
-                <span>Managing database</span>
+                <span>Database Management</span>
+              </div>
+              <div class="highlight">
+                <div class="highlight-blob"></div>
+                <span>JavaScript Developer</span>
               </div>
             </div>
             <div class="about-me-options">
@@ -67,7 +68,7 @@ export default function AboutMe() {
                   Hire Me
                 </Link>
               </button>
-              <a href="Simran_Resume.pdf" download="simran_resume_updated" className='resume-btn-abt'>
+              <a href="Simran_Resume.pdf" download="Resume@Simranjeet.pdf" className='resume-btn-abt'>
                 <button class="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
