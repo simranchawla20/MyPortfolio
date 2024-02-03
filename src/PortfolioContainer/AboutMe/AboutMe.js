@@ -50,7 +50,7 @@ export default function AboutMe() {
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
-                <span>Flutter (Beginenr)</span>
+                <span>Flutter (Beginner)</span>
               </div>
               <div class="highlight">
                 <div class="highlight-blob"></div>
